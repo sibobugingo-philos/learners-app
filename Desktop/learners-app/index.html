@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learners app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    
+</head>
+<body>
+   <div class="container">
+    <h1 class="h1">list of learners</h1>
+    <div class="main">
+       <form class="style">
+        <input type="text" placeholder="firstname " class="firstname"><hr>
+        <input type="text" placeholder="lastname" class="lastname"><hr>
+        <input type="text"placeholder ="grade" class="grade"><hr><br>
+        <button style="background-color: rgb(7, 90, 245) ;color: white;
+        border-radius: 10px; width: 70px; height: 30px;
+         text-align: center;"            
+         >submit</button>
+         
+        <table>
+            <thead>
+                <tr>
+                    <th>firstname</th>
+                    <th>lastname</th>
+                    <th>grade</th>
+                    <th>action</th>
+                </tr>
+            </thead><br>
+            <tbody id="list of learners">
+                <tr>
+                    
+                    <th>sibo</th>
+                    <th>emmy</th>
+                    <th>6</th>
+                    <th>
+                    <a class="edit" href="">edit</a>
+                    <a class="delete" href="">delete</a>
+                    <tr>
+                
+                    <th>sibo</th>
+                    <th>emmy</th>
+                    <th>6</th>
+                    <th>
+                    <a class="edit" href="">edit</a>
+                    <a class="delete" href="delete">delete</a>
+                    
+                        <tr>
+                            <th>sibo</th>
+                            <th>emmy</th>
+                            <th>6</th>
+                            <th>
+                            <a class="edit" href="">edit</a>
+                            <a class="delete" href="">delete</a>
+                        </tr>
+                    
+                
+          
+                    </tr>
+                    
+                </tr>
+            </tbody>
+        </table>
+       </form> 
+
+    </div>
+
+   </div> 
+</body>
+<script src="index.js"></script>
+</html>
+        
